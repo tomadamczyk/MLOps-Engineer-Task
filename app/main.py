@@ -38,6 +38,7 @@ img_examples = {
     }     
 }
 
+
 @app.on_event("startup")
 async def startup_event():
     model = torch.load("./models/model.pth")
